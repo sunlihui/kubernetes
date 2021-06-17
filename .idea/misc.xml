@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSUsageTrigger">
+    <session id="1572420584">
+      <usages-collector id="statistics.kubernetes.usages">
+        <counts>
+          <entry key="completion.kind" value="1" />
+          <entry key="completion.label.key" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-457583553">
+      <usages-collector id="statistics.kubernetes.usages">
+        <counts>
+          <entry key="completion.label.key" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (k8s)" project-jdk-type="Python SDK" />
+</project>

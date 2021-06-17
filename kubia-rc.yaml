@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: kubia
+spec:
+  replicas: 2
+  selector:
+    app: kubiarc
+  template:
+    metadata:
+      labels:
+        app: kubiarc
+    spec:
+      containers:
+      - name: kubia
+        image: luksa/kubia
+        readinessProbe:
+          exec:
+            command:
+              - ls
+              - /var/ready
+        ports:
+        - containerPort: 8080
