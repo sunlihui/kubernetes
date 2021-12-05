@@ -1,8 +1,9 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: batch-job
+  name: muti-completion-batch-job
 spec:
+  completions: 3
   template:
     metadata:
       labels:

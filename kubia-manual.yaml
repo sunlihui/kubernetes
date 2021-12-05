@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: kubia
+  name: kubia-node3
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: kubia

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fortune-pod-env-configmap
+spec:
+  containers:
+    - name: fortune-env-test
+      image: luksa/fortune:env
+      env:
+        - name: INTERVAL            #设置环境变量INTERVAL
+          valueFrom:
+            configMapKeyRef:        #用onfigap初始化，不设固定值
+              name: fortune-config  #引用onfigMap的名称
+              key: sleep-interval   #环境变量设置为ConfigMap下对应键的值

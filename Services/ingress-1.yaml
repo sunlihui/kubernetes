@@ -1,0 +1,13 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fortune-pod-configmap-volume
+spec:
+  rules:
+  - hosts: www.sunlihui.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName:
+          servicePort: 80

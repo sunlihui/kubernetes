@@ -7,6 +7,6 @@ spec:
     requests:
       storage: 1Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   storageClassName: ""
-  volumeName: pv-nfs
+  volumeName: nfs-pv
