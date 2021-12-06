@@ -2,51 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11e89f3-5457-40aa-b461-d52e11e911ba" name="Default" comment="2021年07月05日17:50:41">
-      <change afterPath="$PROJECT_DIR$/Disk_Volume/nfs.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Disk_Volume/pv-nfs.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Disk_Volume/pvc-nfs.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Disk_Volume/pvc-pod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/ingress-1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap/config-file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap/configmap-files/my-nginx-config.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap/configmap-files/sleep-interval" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap/fortune-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap/fortune-pod-configmap-volume.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap/fortune-pod-env-configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cronjob.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-exporter.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-muti-completion-batch-job.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubia-replicaset-muti-match.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sunlihui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sunlihui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/k8s.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/k8s.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/kubia-hostport.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/pod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RBAC/service-reader.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disk_Volume/fortune-pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Disk_Volume/fortune-pod-emptyDir.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disk_Volume/gitrepo-volume-pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Disk_Volume/gitrepo-volume-pod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disk_Volume/pv-claim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Disk_Volume/pv-claim.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disk_Volume/pv-pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Disk_Volume/pv-pod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disk_Volume/pv-volume-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Disk_Volume/pv-volume-local.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/NodePort" beforeDir="false" afterPath="$PROJECT_DIR$/Services/NodePort" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/external-service-endpoints.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/external-service-endpoints.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/external-service-externalname.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/external-service-externalname.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/external-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/external-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/kubia-headless.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/kubia-headless.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/kubia-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/kubia-ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/kubia-svc-affinity.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/kubia-svc-affinity.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/kubia-svc-loadbalancer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/kubia-svc-loadbalancer.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/kubia-svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/kubia-svc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exporter.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/exporter.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubia-manual.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubia-manual.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubia-rc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubia-rc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubia-replicaset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubia-replicaset.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-completion-batch-job.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/multi-completion-batch-job.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh-monitor-daemonset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ssh-monitor-daemonset.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/hostNetwork-pod.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,16 +125,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Disk_Volume" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pods" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pods" />
       <recent name="$PROJECT_DIR$/Disk_Volume" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pods" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
